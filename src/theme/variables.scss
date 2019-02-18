@@ -1,0 +1,9 @@
+/* media queries */
+/* iPadPro needs work */
+$iPadPro: "(min-device-width: 1024px) and (max-device-width: 1366px)";
+$tablet: "(min-width: 768px) and (max-width: 1024px)";
+$tabletLandscape: "(min-width: 768px) and (max-width: 1024px) and (orientation : landscape)";
+$desktop: "(min-width: 1024px)";
+$phone: "(min-device-width: 320px) and (max-device-width: 736px)";
+$phone6: "(min-device-width: 375px) and (max-device-width: 667px)";
+$phone6Plus: "(min-device-width: 414px) and (max-device-width: 736px)";
