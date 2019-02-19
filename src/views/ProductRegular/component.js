@@ -65,9 +65,9 @@ export default class ProductRegular extends Component {
 
   fetchData() {
     const{unit,region,startDate,endDate,startYear,endYear} = this.state
-    // var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+    var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
     var targetUrl = `https://s3.eu-west-2.amazonaws.com/interview-question-data/metoffice/${unit}-${region}.json`
-	var request = new Request(targetUrl);
+	var request = new Request(proxyUrl + targetUrl);
 
 	// console.log('ssss request',request)
     fetch(request,{mode:'cors'})
